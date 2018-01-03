@@ -10,7 +10,7 @@ body {
 
 body::after {
     content: "";
-    background: no-repeat center/60% url("logo-mini.png");
+    background: no-repeat center/40% url("logo-mini.png");
     opacity: 0.2;
     top: 0;
     left: 0;
@@ -41,7 +41,7 @@ span {
     float: left;
     top: 95%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -40%);
 }
 
 #logo {
