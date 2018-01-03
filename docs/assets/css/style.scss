@@ -3,7 +3,12 @@
 
 @import "{{ site.theme }}";
 
+body {
+  background-color:#000;
+}
+
 #page {
+  color: #FFF;
   margin-left:auto;
   margin-right:auto;
   width:960px;
