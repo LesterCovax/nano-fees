@@ -1,26 +1,4 @@
 ---
 ---
 
-@import "{{ site.theme }}";
-
-body {
-    background-color:#000;
-}
-
-div {
-    position: absolute;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 100px;
-    height: 100px;
-    color: #FFF;
-    font-size: 1000%;
-    font-family: Monospace;
-    -webkit-font-feature-settings: "zero" on;
-    -moz-font-feature-settings: "zero" on;
-    -ms-font-feature-settings: "zero" on;
-    font-feature-settings: "zero" on;
-}
+@import "custom";
