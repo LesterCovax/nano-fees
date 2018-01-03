@@ -4,10 +4,10 @@
 @import "{{ site.theme }}";
 
 body {
-  background-color:#000;
+    background-color:#000;
 }
 
-div#fuuuuuu {
+div {
     position: absolute;
     top:0;
     bottom: 0;
@@ -17,6 +17,10 @@ div#fuuuuuu {
     width: 100px;
     height: 100px;
     color: #FFF;
-    font-family: "Monospace";
+    font-size: 1000%;
+    font-family: Monospace;
+    -webkit-font-feature-settings: "zero" on;
+    -moz-font-feature-settings: "zero" on;
+    -ms-font-feature-settings: "zero" on;
     font-feature-settings: "zero" on;
 }
