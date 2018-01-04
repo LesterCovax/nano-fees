@@ -1,0 +1,5 @@
+{
+  request: 'currentFee',
+  version: 1,
+  currentFee: 0
+}
