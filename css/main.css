@@ -1,6 +1,6 @@
 body {
     background-color:#000;
-    color: white;
+    color: #34b5fe;
     font-family: monospace;
     -webkit-font-feature-settings: "zero" on;
     -moz-font-feature-settings: "zero" on;
@@ -10,9 +10,9 @@ body {
 
 body::after {
     content: "";
-    background: no-repeat center/40% url("logo-mini.png");
-    opacity: 0.2;
-    top: 0;
+    background: no-repeat center/40% url("https://nano.org/assets/img/logo-white.svg");
+    opacity: 0.8;
+    top: 100;
     left: 0;
     bottom: 0;
     right: 0;
@@ -22,9 +22,9 @@ body::after {
 
 div {
     font-size: 900%;
-    -webkit-text-stroke: 1.5px rgb(103, 172, 86);
+    -webkit-text-stroke: 1.5px rgb(72, 134, 240);
     position: absolute;
-    top: 0;
+    top: -200;
     bottom: 0;
     left: 0;
     right: 0;
